@@ -5,12 +5,26 @@ public class Main {
         System.out.println("Hi there!");
 
         //Added a scanner object
-        String input;
-        try (Scanner scanner = new Scanner(System.in)) {
+        Scanner scanner = new Scanner(System.in);
+        String input = null;
+        try  {
             input = scanner.nextLine();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
 
         System.out.println(input);
+
+        //Another input option added
+        System.out.println("Enter first number: ");
+        int n1 = scanner.nextInt();
+        System.out.println("Enter second number: ");
+        int n2 = scanner.nextInt();
+
+
+
+
+
     }
 }
