@@ -13,7 +13,6 @@ public class Main {
             e.printStackTrace();
         }
 
-
         System.out.println(input);
 
         //Another input option added
