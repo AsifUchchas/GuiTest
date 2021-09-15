@@ -21,10 +21,5 @@ public class Main {
         int n1 = scanner.nextInt();
         System.out.println("Enter second number: ");
         int n2 = scanner.nextInt();
-
-
-
-
-
     }
 }
